@@ -14,13 +14,13 @@
 		30BBA31A1879DFA0006FABEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA3191879DFA0006FABEC /* main.m */; };
 		30BBA31E1879DFA0006FABEC /* TPXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA31D1879DFA0006FABEC /* TPXAppDelegate.m */; };
 		30BBA3211879DFA0006FABEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA31F1879DFA0006FABEC /* Main.storyboard */; };
-		30BBA3241879DFA0006FABEC /* TPXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA3231879DFA0006FABEC /* TPXViewController.m */; };
 		30BBA3261879DFA0006FABEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA3251879DFA0006FABEC /* Images.xcassets */; };
 		30BBA32D1879DFA0006FABEC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BBA32C1879DFA0006FABEC /* XCTest.framework */; };
 		30BBA32E1879DFA0006FABEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BBA30D1879DFA0006FABEC /* Foundation.framework */; };
 		30BBA32F1879DFA0006FABEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BBA3111879DFA0006FABEC /* UIKit.framework */; };
 		30BBA3371879DFA0006FABEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA3351879DFA0006FABEC /* InfoPlist.strings */; };
 		30BBA3391879DFA0006FABEC /* ChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA3381879DFA0006FABEC /* ChallengeSolutionTests.m */; };
+		30BBA3441879E0C1006FABEC /* TPXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA3431879E0C1006FABEC /* TPXMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		30BBA31C1879DFA0006FABEC /* TPXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPXAppDelegate.h; sourceTree = "<group>"; };
 		30BBA31D1879DFA0006FABEC /* TPXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPXAppDelegate.m; sourceTree = "<group>"; };
 		30BBA3201879DFA0006FABEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		30BBA3221879DFA0006FABEC /* TPXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPXViewController.h; sourceTree = "<group>"; };
-		30BBA3231879DFA0006FABEC /* TPXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPXViewController.m; sourceTree = "<group>"; };
 		30BBA3251879DFA0006FABEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		30BBA32B1879DFA0006FABEC /* ChallengeSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BBA32C1879DFA0006FABEC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		30BBA3341879DFA0006FABEC /* ChallengeSolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChallengeSolutionTests-Info.plist"; sourceTree = "<group>"; };
 		30BBA3361879DFA0006FABEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30BBA3381879DFA0006FABEC /* ChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallengeSolutionTests.m; sourceTree = "<group>"; };
+		30BBA3421879E0C1006FABEC /* TPXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXMainViewController.h; sourceTree = "<group>"; };
+		30BBA3431879E0C1006FABEC /* TPXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +115,10 @@
 				30BBA31C1879DFA0006FABEC /* TPXAppDelegate.h */,
 				30BBA31D1879DFA0006FABEC /* TPXAppDelegate.m */,
 				30BBA31F1879DFA0006FABEC /* Main.storyboard */,
-				30BBA3221879DFA0006FABEC /* TPXViewController.h */,
-				30BBA3231879DFA0006FABEC /* TPXViewController.m */,
 				30BBA3251879DFA0006FABEC /* Images.xcassets */,
 				30BBA3141879DFA0006FABEC /* Supporting Files */,
+				30BBA3421879E0C1006FABEC /* TPXMainViewController.h */,
+				30BBA3431879E0C1006FABEC /* TPXMainViewController.m */,
 			);
 			path = ChallengeSolution;
 			sourceTree = "<group>";
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30BBA31A1879DFA0006FABEC /* main.m in Sources */,
-				30BBA3241879DFA0006FABEC /* TPXViewController.m in Sources */,
+				30BBA3441879E0C1006FABEC /* TPXMainViewController.m in Sources */,
 				30BBA31E1879DFA0006FABEC /* TPXAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

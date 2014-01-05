@@ -1,5 +1,5 @@
 //
-//  TPXViewController.h
+//  TPXMainViewController.h
 //  ChallengeSolution
 //
 //  Created by pixelhacker on 1/5/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TPXViewController : UIViewController
+@interface TPXMainViewController : UITableViewController
 
 @end
